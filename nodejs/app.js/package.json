@@ -1,0 +1,19 @@
+{
+  "name": "mynodeapp",
+  "version": "1.0.0",
+  "description": "basic node application for practice purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ericabasak/testNodeApp.git"
+  },
+  "author": "erica basak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericabasak/testNodeApp/issues"
+  },
+  "homepage": "https://github.com/ericabasak/testNodeApp#readme"
+}
