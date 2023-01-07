@@ -8,6 +8,11 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-    console.log(res.write());
-    console.log(res());
+    res.statusCode = 200;
+    res.setHeader('Content-type', 'text/plain');
+    res.end("This is the end!")
 });
+
+server.listen(port, hostname, () => {
+    console.log("Server is starting on port: " + port);
+})
